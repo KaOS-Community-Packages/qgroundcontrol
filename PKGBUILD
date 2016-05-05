@@ -7,7 +7,9 @@ url="https://github.com/mavlink/qgroundcontrol"
 license=('GPL3')
 depends=('qt5-tools' 'qt5-serialport' 'qt5-svg' 'qt5-webkit' 'qt5-quickcontrols' 'qt5-xmlpatterns' 'qt5-script' 'qt5-graphicaleffects' 'qt5-connectivity' 'espeak')
 source=("https://github.com/mavlink/${pkgname}/releases/download/v${pkgver}/${pkgname}.tar.bz2" "https://raw.githubusercontent.com/mavlink/qgroundcontrol/master/resources/icons/qgroundcontrol.png" "https://raw.githubusercontent.com/mavlink/qgroundcontrol/master/qgroundcontrol.desktop")
-md5sums=('')
+md5sums=('872c945c766199eadf8285199cb4a9c1'
+         '8899e5ad18baecbc1b68f2645cef33f6'
+         '82731e75dfa9c7c04c65b612bc668037')
 
 package(){
         install -dm 755 $pkgdir/usr/share/$pkgname
