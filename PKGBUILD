@@ -1,5 +1,5 @@
 pkgname=qgroundcontrol
-pkgver=2.9.4
+pkgver=2.9.5
 pkgrel=1
 pkgdesc="Open Source Micro Air Vehicle Ground Control Station"
 arch=('x86_64')
@@ -7,9 +7,7 @@ url="https://github.com/mavlink/qgroundcontrol"
 license=('GPL3')
 depends=('qt5-tools' 'qt5-serialport' 'qt5-svg' 'qt5-webkit' 'qt5-quickcontrols' 'qt5-xmlpatterns' 'qt5-script' 'qt5-graphicaleffects' 'qt5-connectivity' 'espeak')
 source=("https://github.com/mavlink/${pkgname}/releases/download/v${pkgver}/${pkgname}.tar.bz2" "https://raw.githubusercontent.com/mavlink/qgroundcontrol/master/resources/icons/qgroundcontrol.png" "https://raw.githubusercontent.com/mavlink/qgroundcontrol/master/qgroundcontrol.desktop")
-md5sums=('12501f1027ece2af717b71d46ed438ea'
-         '8899e5ad18baecbc1b68f2645cef33f6'
-         '82731e75dfa9c7c04c65b612bc668037')
+md5sums=('')
 
 package(){
         install -dm 755 $pkgdir/usr/share/$pkgname
