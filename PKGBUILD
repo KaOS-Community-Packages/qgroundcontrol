@@ -1,6 +1,6 @@
 pkgname=qgroundcontrol
 pkgver=2.9.7
-pkgrel=1
+pkgrel=2
 pkgdesc="Open Source Micro Air Vehicle Ground Control Station"
 arch=('x86_64')
 url="https://github.com/mavlink/qgroundcontrol"
